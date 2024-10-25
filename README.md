@@ -4,6 +4,6 @@
 
 Still a work in progress, but the idea is there.
 
-Available at: reader.billiard.dev
+Available at: https://reader.billiard.dev/
 
  ////  ////  ////  ////  ////
