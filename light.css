@@ -1,0 +1,22 @@
+:root {
+    --background: #d8d8d8; /*#1f1f1f*/
+    --contrast: #333333; /*#d8d8d8*/
+    --menus: #bebebe; /*#535353*/
+    --upbut: #d4d4d4; /*#757575*/
+    --upbg: #e0e0e0; /*#a5a5a5*/
+}
+
+.content-about-objects{
+    color: var(--contrast);
+}
+
+.content-about-objects table, th, .end-table {
+    border:6px solid var(--contrast);
+}
+.content-title{
+    color: var(--contrast);
+}
+
+.content-upload-text{
+    color: var(--contrast);
+}

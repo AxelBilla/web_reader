@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Iconic';
+    src: url('./assets/fonts/iconic-b.ttf');
+}
+.f-iconic {
+    font-family: 'Iconic';
+}
+
+@font-face {
+    font-family: 'Identidad';
+    src: url('./assets/fonts/identidad.otf');
+}
+.f-identidad {
+    font-family: 'Identidad';
+}
+
+@font-face {
+    font-family: 'ignazio';
+    src: url('./assets/fonts/ignazio.ttf');
+}
+.f-rdnum {
+    font-family: 'ignazio';
+}
+
+:root {
+    --background: #1f1f1f;
+    --contrast: #d8d8d8;
+    --menus: #535353;
+    --upbut: #757575;
+    --upbg: #a5a5a5;
+    --light: #b4b4b4;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#bg-nav{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    z-index: 1;
+    align-items: center;
+    background-color: var(--background);
+    width: 98%;
+    height: 6em;
+    border-radius: 5px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--menus);
+    width: 98%;
+    height: 5em;
+    border-radius: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.navbar-title{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3em;
+    background-color: var(--background);
+    color: var(--contrast);
+    font-size: 5vw;
+    max-width: 50%;
+    height: 80%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.navbar-options{    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: -5%;
+}
+
+.navbar-options-buttons{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+.navbar-options-buttons2{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-right: -30%;
+}
+#more, #settings{
+    max-width: 6vw;
+    max-height: 15vw;
+}
+
+
+#settings-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--menus);
+    width: 98%;
+    min-height: 80%;
+    border-radius: 15px;
+    margin-bottom: 0.3em;
+    margin-top: -5.5em;
+    border: 0.7vw solid var(--background);
+    transition: margin-top 0.3s;
+}
+
+#light-modes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    border-radius: 5px;
+    margin-left: 3vw;
+    font-size: 2.5vw;
+}
+
+#dark-switch{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--background);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 0.5vw solid var(--light);
+    color: var(--light);
+}
+
+#light-switch{
+    display: none;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--background);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 0.5vw solid var(--light);
+    color: var(--light);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 95%;
+    margin-top: 6em;
+    margin-bottom: 1em;
+
+}
+
+.content-upload{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--upbg);
+    width: 50%;
+    height: 33vw;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2vw;
+    border: 0.8vw solid var(--menus);
+}
+
+.content-upload-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    color: var(--background);
+    font-size: 4vw;
+    margin-top: 3%;
+}
+
+.content-upload-button{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--upbut);
+    width: 60%;
+    height: 8vw;
+    border-radius: 3vw;
+    border: 0.5vw solid var(--menus);
+    color: var(--contrast);
+    text-decoration:none;
+    font-size: 4.5vw;
+    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+}
+
+
+
+
+/* Handles links' underline & color changes, defaults text color to its regular one. */
+.h-clicks,.h-clicks:hover,.h-clicks:visited{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.no-clicks{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
+}
+.i-want-clicks{ 
+    -webkit-user-select: text; /* Safari */        
+    -moz-user-select: text; /* Firefox */
+    -ms-user-select: text; /* IE10+/Edge */
+    user-select: text;
+}
+
+.click-a-like{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 350px) {
+    #main-window {
+        display:none
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar-title {
+        margin-left: 8%;}
+}
+@media screen and (max-width: 650px) {
+    #redad{
+        font-size: 9vw;
+    }
+    #settings{   
+        max-width: 12vw;
+        max-height: 29vw;
+        margin-right: 1.5em;
+    }
+    #more{
+        margin-right: 2.5em;
+        max-width: 12vw;
+        max-height: 29vw;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1200px) {
+    #redad{
+        font-size: 7vw;
+    }
+    #settings{   
+        max-width: 7vw;
+        max-height: 17vw;
+        margin-right: 1.5em;
+    }
+    #more{
+        margin-right: 2.5em;
+        max-width: 7vw;
+        max-height: 17vw;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    #redad{
+        font-size: 4vw;
+    }
+    #settings{   
+        max-width: 4vw;
+        max-height: 15vw;
+        margin-right: 1.5em;
+    }
+    #more{
+        margin-right: 2.5em;
+        max-width: 4vw;
+        max-height: 15vw;
+    }
+}
