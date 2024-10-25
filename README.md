@@ -2,6 +2,8 @@
 
 - School's #1 Web Project -
 
-Still a work in progress, but the overall look is there.
+Still a work in progress, but the idea is there.
+
+Available at: reader.billiard.dev
 
  ////  ////  ////  ////  ////
