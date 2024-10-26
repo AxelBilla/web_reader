@@ -50,7 +50,7 @@ body{
     height: 100%;
 }
 
-#bg-nav{
+.bg-nav{
     display: flex;
     flex-direction: column;
     flex-grow: 0;
