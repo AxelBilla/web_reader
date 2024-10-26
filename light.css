@@ -20,3 +20,7 @@
 .content-upload-text{
     color: var(--contrast);
 }
+
+#clear-button-warning-box{
+    color: var(--contrast);
+}

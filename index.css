@@ -24,6 +24,7 @@
 
 :root {
     --background: #1f1f1f;
+    --fadedBackground: #1f1f1fa9;
     --contrast: #d8d8d8;
     --menus: #535353;
     --upbut: #757575;
@@ -247,6 +248,54 @@ body{
     width: 90vw;
 }
 
+#clear-button-warning-bg{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 3;
+    align-items: center;
+    background-color: var(--fadedBackground);
+    width: 1000vw;
+    height: 1000vw;
+    position: fixed;
+    top: 0;
+}
+
+#clear-button-warning-box{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 4;
+    align-items: center;
+    background-color: var(--upbg);
+    width: 30vw;
+    height: 20vw;
+    border-radius: 2vw;
+    position: fixed;
+    border: 0.8vw solid var(--menus);
+    color: var(--background);
+    top: 0;
+    margin-top: 15vw;
+}
+
+#clear-button-warning-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--upbut);
+    width: 50%;
+    height: 25%;
+    border-radius: 1.5vw;
+    font-size: 4vw;
+    border: 0.5vw solid var(--menus);
+    color: var(--contrast);
+}
+
+.clear-button-warning-text{
+    font-size: 2.2vw;
+    color: var(--fadedBackground);
+}
 
 
 
