@@ -1,9 +1,11 @@
 :root {
-    --background: #d8d8d8; /*#1f1f1f*/
+    --background: #ffffff; /*#1f1f1f*/
     --contrast: #333333; /*#d8d8d8*/
-    --menus: #bebebe; /*#535353*/
+    --menus: #e4e4e4; /*#535353*/
     --upbut: #d4d4d4; /*#757575*/
-    --upbg: #e0e0e0; /*#a5a5a5*/
+    --upbg: #d1d1d1; /*#a5a5a5*/
+    --btnset: #acacac;
+    --upbgl: #ececec;
 }
 
 .content-about-objects{
@@ -23,4 +25,13 @@
 
 #clear-button-warning-box{
     color: var(--contrast);
+}
+
+#dark-switch, #light-switch{
+    border: 0.5vw solid var(--upbut);
+    color: var(--btnset);
+}
+
+.content-upload{
+    background-color: var(--upbgl);
 }
