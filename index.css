@@ -192,6 +192,15 @@ body{
 
 }
 
+#content-images{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
 .content-upload{
     display: flex;
     flex-direction: column;
