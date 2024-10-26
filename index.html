@@ -7,9 +7,13 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link id="modifier" rel="stylesheet" type="text/css" href="index.css">
     <script language="JavaScript" type="text/javascript" src="assets/js/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/navbar.js"></script>
+    <script type="text/javascript" defer src="assets/js/navbar.js"></script>
     <script type="text/javascript" defer src="assets/js/scroll.js"></script>
     <script type="text/javascript" defer src="assets/js/lights.js"></script>
+    <script type="text/javascript" defer src="assets/js/reader.js"></script>
+    <script type="text/javascript" defer src="assets/js/imgcleaner.js"></script>
+
+
 </head>
 <body id="indexPage">
 
@@ -32,26 +36,31 @@
                     <div id="light-switch">LIGHT MODE</div>
                     <div id="dark-switch">DARK MODE</div>
                 </div>
+                <div id="clear-button" class="f-iconic no-clicks click-a-like">
+                    <div id="light-switch">CLEAR DATA</div>
+                    <div id="dark-switch">CLEAR DATA</div>
+                </div>
             </div>
         </div>
 
         <!-- ACTUAL CONTENT -->
-        <div class="content">
+        <div class="content" id="content">
             <div class="content-upload" id="upload-box">
                 <div class="content-upload-text no-clicks f-iconic">
                     <div class="id-1">Limitations: </div>
                     <div class="id-2"><span class="f-rdnum">50</span>MB MAX</div>
-                    <div class="id-3">Less than <span class="f-rdnum">100</span> pages</div>
                     <div class="id-4"></div>
                 </div>
 
-                <a href="" class="content-upload-button">
-                    <div class="h-clicks f-identidad">UPLOAD</div>
-                </a>
+                <div class="content-upload-button click-a-like" id="btnUp" onclick="document.getElementById('upload').click();" >
+                    <div class="f-identidad">UPLOAD</div>
+                    <input id="upload" type="file" accept="image/*" multiple style="display: none;" />
+                </div>
             </div>
 
+            <div id="content-images">
 
-
+            </div>
 
         </div>
     </div>

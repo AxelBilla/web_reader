@@ -142,7 +142,7 @@ body{
     transition: margin-top 0.3s;
 }
 
-#light-modes{
+#light-modes, #clear-button{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -232,6 +232,10 @@ body{
     font-size: 4.5vw;
     margin-bottom: 0.2em;
     margin-top: 0.3em;
+}
+
+.imgDisplay{
+    width: 90vw;
 }
 
 
