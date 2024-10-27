@@ -244,6 +244,10 @@ body{
     margin-top: 0.3em;
 }
 
+#upload, .hdn-btn{
+    display: none;
+}
+
 .imgDisplay{
     width: 90vw;
 }
@@ -297,6 +301,23 @@ body{
     color: var(--fadedBackground);
 }
 
+.clear-button-warning-text-bottom{
+    margin-top: -1vw;
+}
+
+.clear-button-warning-title{
+    font-size: 4vw;
+    margin-top: 1vw;
+}
+
+.easter{
+    position:absolute;
+    border: none;
+    outline: none;
+    background: #ffffff00;
+    width: 2%;
+    height: 2%;
+}
 
 
 /* Handles links' underline & color changes, defaults text color to its regular one. */
