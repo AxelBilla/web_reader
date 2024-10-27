@@ -27,6 +27,10 @@
     color: var(--contrast);
 }
 
+#clear-button-warning-btn{
+    background-color: var(--upbgl);
+}
+
 #dark-switch, #light-switch{
     border: 0.5vw solid var(--upbut);
     color: var(--btnset);
