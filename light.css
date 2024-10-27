@@ -23,6 +23,14 @@
     color: var(--contrast);
 }
 
+.content-upload{
+    background-color: var(--upbgl);
+}
+
+.content-upload-button{
+    background-color: #fafafa;
+}
+
 #clear-button-warning-box{
     color: var(--contrast);
 }
@@ -34,10 +42,6 @@
 #dark-switch, #light-switch{
     border: 0.5vw solid var(--upbut);
     color: var(--btnset);
-}
-
-.content-upload{
-    background-color: var(--upbgl);
 }
 
 
