@@ -35,3 +35,11 @@
 .content-upload{
     background-color: var(--upbgl);
 }
+
+
+.content-report-form{
+    background-color: var(--menus);
+}
+.content-about-objects table{
+    background-color: var(--menus);
+}
