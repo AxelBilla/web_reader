@@ -76,6 +76,7 @@
 .content-report-form button{
     height: 4vw;
     margin-top: 2vw;
+    width: 90%;
 }
 
 .content-report-text{
@@ -85,12 +86,12 @@
     width: 100%;
     margin-top: 2vw;
     margin-bottom: 2vw;
-    margin-left: 2vw;
+    margin-left: 7vw;
 }
 
 .content-report-text-bar{
     margin-top: 2vw;
-    width: 100%;
+    width: 90%;
     height: 0.8vw;
     border-radius: 1vw;
     background-color: var(--light);
