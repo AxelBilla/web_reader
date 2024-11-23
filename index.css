@@ -226,6 +226,12 @@ body{
     font-size: 4vw;
     margin-top: 3%;
 }
+.id-2, .id-3, .id-4{
+    margin-bottom: -0.5vw;
+}
+.id-1{
+    font-size: 5vw;
+}
 
 .content-upload-button{
     display: flex;
