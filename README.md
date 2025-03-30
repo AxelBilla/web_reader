@@ -1,9 +1,24 @@
-//// HELLO THERE ////
+# **Web Reader**
 
-- School's #1 Web Project
 
-Still a work in progress, but pretty functional.
+##Web Reading App letting you read any comic book/manga locally without installing an app
 
-Available at: https://reader.billiard.dev/
+This was made by myself with the helpful advices of a friend, following the rigid technical requirements put in place by my teachers.
 
- ////  ////  ////  ////  ////
+### Available at: https://reader.billiard.dev/
+
+
+
+
+## 【 Features 】
+
+### Upload Images
+Upload an unlimited amount of images to displayed on the app, in the right order.
+**[Only accepts image formats such as .png, .jpg, etc...]**
+</br></br>
+### Switch Theme
+Switch at will from light and dark themes for the utmost reading experience.
+</br></br>
+### Clear Cache
+Clear every image currently displayed at will.
+</br></br>
