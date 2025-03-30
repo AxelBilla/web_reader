@@ -1,7 +1,7 @@
 # **Web Reader**
 
 
-## Web Reading App letting you read any comic book/manga locally without installing an app
+### Web Reading App letting you read any comic book/manga locally without installing an app
 
 This was made by myself with the helpful advices of a friend, following the rigid technical requirements put in place by my teachers.
 
