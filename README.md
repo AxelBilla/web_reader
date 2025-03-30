@@ -1,16 +1,14 @@
 # **Web Reader**
 
 
-### Web Reading App letting you read any comic book/manga locally without installing an app
+### A web reading app to read any graphic novel from your browser
 
 This was made by myself with the helpful advices of a friend, following the rigid technical requirements put in place by my teachers.
-
+</br></br>
 ### Available at: https://reader.billiard.dev/
 
 
-
-
-## 【 Features 】
+# 【 Features 】
 
 ### Upload Images
 Upload an unlimited amount of images to displayed on the app, in the right order.
