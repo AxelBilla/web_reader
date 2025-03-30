@@ -12,6 +12,7 @@ This was made by myself with the helpful advices of a friend, following the rigi
 
 ### <ins>Upload Images</ins>
 Upload an unlimited amount of images to displayed on the app, in the right order.
+
 **[Only accepts image formats such as .png, .jpg, etc...]**
 </br></br>
 ### <ins>Switch Theme</ins>
