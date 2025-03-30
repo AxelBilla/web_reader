@@ -10,13 +10,13 @@ This was made by myself with the helpful advices of a friend, following the rigi
 
 # 【 Features 】
 
-### Upload Images
+### <ins>Upload Images</ins>
 Upload an unlimited amount of images to displayed on the app, in the right order.
 **[Only accepts image formats such as .png, .jpg, etc...]**
 </br></br>
-### Switch Theme
+### <ins>Switch Theme</ins>
 Switch at will from light and dark themes for the utmost reading experience.
 </br></br>
-### Clear Cache
+### <ins>Clear Cache</ins>
 Clear every image currently displayed at will.
 </br></br>
